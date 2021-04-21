@@ -1,0 +1,45 @@
+baseURL = "http://sugarblank.dev/"
+languageCode = "en-us"
+title = "SugarBlank"
+theme = "hello-friend-ng"
+
+[params]
+  enableSharingButtons = true
+  homeSubtitle = "Software Developer"
+  enableThemeToggle = true
+  footerRight = "Made with &#10084; by <a href=\"https://github.com/SugarBlank\">SugarBlank</a>"
+    
+    [languages.en.params.logo]
+      logoMark     = "Δ ~ >>>"
+      logoText = "SugarBlank"
+      logoHomeLink = "/"
+      logoCursorColor    = "#685c56"
+      logoCursorAnimate = "2s"
+    
+    [params.portrait]
+        path     = "https://cdn.discordapp.com/widget-avatars/V6WDavZqXxrVjWFZdtPX2cSa1pqghsuVH3HTqnrr_NY/G0WHQp87DuctEPnfUd7j-PNhOaqpIDmydRiGXFODAJ1gVhRtc2vWZADvbGmE2k1rW2w9lATIs9nSHFWq7BKZX0DBesK1La14mN_O_ZcyCsd5Tlh5F9krSlVFSDuPjAiJ05UkydtBfPF0WQ"
+        alt      = "Portrait"
+        maxWidth = "150px"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:eneblank19@protonmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/SugarBlank"
+  
+  [[params.social]]
+    name = "matrix"
+    url  = "https://github.com/SugarBlank"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
