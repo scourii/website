@@ -2,7 +2,12 @@
 title: "About"
 draft: true
 toc: false
-logotext: "About"
+noHeaderOrFooter: true
+logoText: "Logo"
+params:
+    logo:
+    - logoText: "About"
+
 ---
 Hi, I'm Bryan/SugarBlank.
 I'm a hardworking 15 year old programmer. I'm extremely passionate about programming, and learning as a whole. I'm extremely hard working, and I never give up when something is difficult. I love to learn and try new things all the time, regardless of my initial thoughts on the subject.
@@ -29,4 +34,4 @@ I'm a hardworking 15 year old programmer. I'm extremely passionate about program
 * Windows 10
 
 # Contact
-In the case you are interested in spearking with me, please contact me at eneblank19@protonmail.com.
+In the case you are interested in speaking with me, please contact me at eneblank19@protonmail.com, or contact me on Matrix at SugarBlank.
