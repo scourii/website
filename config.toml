@@ -1,14 +1,18 @@
 baseURL = "http://sugarblank.dev/"
 languageCode = "en-us"
-title = "SugarBlank"
+title = "Bryan Rodriguez"
 theme = "hello-friend-ng"
 
+
+disableKinds	= ["RSS"]
 [params]
-  enableSharingButtons = true
+  homeTitle = "Blank"
+  enableSharingButtons = false
   homeSubtitle = "Software Developer"
   enableThemeToggle = true
-  footerRight = "Made with &#10084; by <a href=\"https://github.com/SugarBlank\">SugarBlank</a>"
-    
+  footerLeft = "Built differently &#8734;"
+  footerRight = "By <a href=\"https://github.com/SugarBlank\">Scouri</a>"
+  showReadingTime = false
     [languages.en.params.logo]
       logoMark     = "Δ ~ >>>"
       logoText = "SugarBlank"
@@ -17,7 +21,7 @@ theme = "hello-friend-ng"
       logoCursorAnimate = "2s"
     
     [params.portrait]
-        path     = "https://cdn.discordapp.com/widget-avatars/V6WDavZqXxrVjWFZdtPX2cSa1pqghsuVH3HTqnrr_NY/G0WHQp87DuctEPnfUd7j-PNhOaqpIDmydRiGXFODAJ1gVhRtc2vWZADvbGmE2k1rW2w9lATIs9nSHFWq7BKZX0DBesK1La14mN_O_ZcyCsd5Tlh5F9krSlVFSDuPjAiJ05UkydtBfPF0WQ"
+        path     = "/selfie.png"
         alt      = "Portrait"
         maxWidth = "150px"
 
@@ -31,7 +35,7 @@ theme = "hello-friend-ng"
   
   [[params.social]]
     name = "matrix"
-    url  = "https://github.com/SugarBlank"
+    url  = "https://matrix.to/#/@scouri:matrix.org"
 
 [menu]
   [[menu.main]]
@@ -43,3 +47,8 @@ theme = "hello-friend-ng"
     identifier = "projects"
     name       = "Projects"
     url        = "projects/"
+  
+  [[menu.main]]
+    identifier	= "posts"
+    name 	= "Posts"
+    url		= "posts/"
